@@ -1,0 +1,41 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class BaozhuangPanel : BasePanel
+{
+    public Button zuixiaohau;
+    public Button huanyuan;
+    public Button guanbi;
+
+    public Button tuwen;
+    public Button shiping;
+    public override void Init()
+    {
+        zuixiaohau.onClick.AddListener(() =>
+        {
+
+        });
+
+        huanyuan.onClick.AddListener(() =>
+        {
+
+        });
+
+        guanbi.onClick.AddListener(() =>
+        {
+            UIMgr.Instance.HideMe<BaozhuangPanel>();
+        });
+
+        tuwen.onClick.AddListener(() =>
+        {
+
+        });
+
+        shiping.onClick.AddListener(() =>
+        {
+
+        });
+    }
+}
